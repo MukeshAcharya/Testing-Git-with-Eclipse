@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+	<test name="personnel loan">
+		<classes>
+			<class name="testcases.test" />
+			<class name="testcases.AddDelStockTest">
+				<methods>
+					<exclude name="deleteStockTest" />
+				</methods>
+
+			</class>
+			<class name="testcases.test2" />
+		</classes>
+	</test>
+</suite>
